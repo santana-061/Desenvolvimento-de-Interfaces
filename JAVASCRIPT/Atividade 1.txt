@@ -1,0 +1,40 @@
+console.log ("olá turma")
+VM857:1 olá turma
+undefined
+window.alert ("cuidado com a disperção")
+undefined
+console.log (10 + 5)
+VM1041:1 15
+undefined
+console.log ("meu nome é");
+VM1122:1 meu nome é
+undefined
+const nome = "italo";
+undefined
+const idade = 18;
+undefined
+nome
+'italo'
+idade
+18
+let pontos = 10;
+undefined
+console.log(typeof"ADS");
+VM1412:1 string
+undefined
+console.log(typeof 45 );
+VM1431:1 number
+undefined
+console.log(typeof 50.57 );
+VM1464:1 number
+undefined
+var 1 = 15;
+VM1606:1 Uncaught SyntaxError: Unexpected number (at VM1606:1:5)
+var1 = 15;
+15
+var2 = 20;
+20
+soma = var1 + var2
+35
+n1 = 4, n2 = 20, soma = n1 + n2, subtracao = n1 - n2, divisao = n1 / n2
+0.2
