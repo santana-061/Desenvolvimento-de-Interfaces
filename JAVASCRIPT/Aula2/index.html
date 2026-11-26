@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade prática — JavaScript Aula 2</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="laboratorio1.js" defer></script>
+  <script src="laboratorio2.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Atividade prática — JavaScript</h1>
+    <p>Aula 2: entrada de dados, DOM, eventos e estruturas condicionais</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Objetivo</h2>
+      <p>Praticar a leitura de dados com <code>.value</code>, a localização de elementos com <code>getElementById()</code>, eventos com <code>addEventListener()</code>, conversão com <code>Number()</code> e decisões com <code>if</code>, <code>else if</code> e <code>else</code>.</p>
+      <p class="nota">Preencha os campos e clique nos botões para testar cada atividade.</p>
+    </section>
+
+    <section>
+      <h2>Laboratório 1 — Verificador de idade</h2>
+      <p>Informe uma idade inteira entre 0 e 120. O programa verifica se a pessoa é maior ou menor de idade e trata entradas inválidas.</p>
+      <label for="idade">Idade</label>
+      <input id="idade" type="number" min="0" max="120" step="1" placeholder="Digite sua idade">
+      <button id="verificar">Verificar idade</button>
+      <p id="resultadoIdade" class="resultado" aria-live="polite"></p>
+    </section>
+
+    <section>
+      <h2>Laboratório 2 — Calculadora de média</h2>
+      <p>Digite três notas entre 0 e 10. Média maior ou igual a 6: aprovado. Média abaixo de 6: recuperação.</p>
+      <div class="grid">
+        <div><label for="nota1">Primeira nota</label><input id="nota1" type="number" min="0" max="10" step="any" placeholder="0 a 10"></div>
+        <div><label for="nota2">Segunda nota</label><input id="nota2" type="number" min="0" max="10" step="any" placeholder="0 a 10"></div>
+        <div><label for="nota3">Terceira nota</label><input id="nota3" type="number" min="0" max="10" step="any" placeholder="0 a 10"></div>
+      </div>
+      <button id="calcularMedia">Calcular média</button>
+      <p id="resultadoMedia" class="resultado" aria-live="polite"></p>
+    </section>
+
+    <section>
+      <h2>Exercício A — Par ou ímpar</h2>
+      <label for="numeroPar">Número inteiro</label>
+      <input id="numeroPar" type="number" step="1" placeholder="Digite um número">
+      <button id="verificarPar">Verificar</button>
+      <p id="resultadoPar" class="resultado" aria-live="polite"></p>
+    </section>
+
+    <section>
+      <h2>Exercício B — Desconto de 10%</h2>
+      <p>Compras a partir de R$ 200 recebem 10% de desconto.</p>
+      <label for="valorCompra">Valor da compra (R$)</label>
+      <input id="valorCompra" type="number" min="0" step="0.01" placeholder="Ex.: 250">
+      <button id="calcularDesconto">Calcular desconto</button>
+      <p id="resultadoDesconto" class="resultado" aria-live="polite"></p>
+    </section>
+
+    <section>
+      <h2>Exercício C — Controle de acesso</h2>
+      <p>O acesso é permitido para maiores de idade (18 anos ou mais) com cadastro ativo.</p>
+      <label for="idadeAcesso">Idade</label>
+      <input id="idadeAcesso" type="number" min="0" step="1" placeholder="Digite sua idade">
+      <label for="cadastroAtivo">Cadastro</label>
+      <select id="cadastroAtivo">
+        <option value="">Selecione</option>
+        <option value="sim">Ativo</option>
+        <option value="nao">Inativo</option>
+      </select>
+      <button id="verificarAcesso">Verificar acesso</button>
+      <p id="resultadoAcesso" class="resultado" aria-live="polite"></p>
+    </section>
+
+    <section>
+      <h2>Exercício D — Saudação</h2>
+      <label for="nomeUsuario">Seu nome</label>
+      <input id="nomeUsuario" type="text" placeholder="Digite seu nome">
+      <button id="saudar">Saudar</button>
+      <p id="resultadoSaudacao" class="resultado" aria-live="polite"></p>
+    </section>
+
+    <section>
+      <h2>Exercício E — Classificação de temperatura</h2>
+      <label for="temperatura">Temperatura (°C)</label>
+      <input id="temperatura" type="number" step="any" placeholder="Digite a temperatura">
+      <button id="classificarTemperatura">Classificar</button>
+      <p id="resultadoTemperatura" class="resultado" aria-live="polite"></p>
+      <p class="nota">Critérios adotados para este exercício: abaixo de 15 °C = frio; de 15 °C a 25 °C = agradável; acima de 25 °C = quente. O material da aula solicita a classificação, mas não define os limites.</p>
+    </section>
+
+    <section>
+      <h2>Exercício F — Validação de notas</h2>
+      <label for="notaValidar">Nota</label>
+      <input id="notaValidar" type="number" step="any" placeholder="Digite uma nota de 0 a 10">
+      <button id="validarNota">Validar nota</button>
+      <p id="resultadoNota" class="resultado" aria-live="polite"></p>
+    </section>
+  </main>
+  <footer>Atividade de Desenvolvimento de Interface — JavaScript Aula 2</footer>
+</body>
+</html>
