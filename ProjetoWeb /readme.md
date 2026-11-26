@@ -1,45 +1,41 @@
-Objetivo
-Praticar os conceitos apresentados no Módulo I – Introdução ao HTML, desenvolvendo uma página HTML simples e utilizando corretamente tags, atributos e elementos.
+# 🌐 Prática I: Primeira Página em HTML5
 
-Material de apoio
-Consulte o Módulo I de Desenvolvimento de sistemas Web: CSS e HTML, de   especialmente o conteúdo sobre Tags, atributos e elementos:
+> **Data da atividade:** 29/10/2026  
+> **Módulo I:** Introdução ao HTML
 
-Orientações 29/10/2026
-Crie uma página HTML simples sobre um tema de sua escolha. A página deverá conter, no mínimo:
+---
 
-Um título para a página.
+## 🎯 Objetivo
+Praticar os conceitos fundamentais apresentados no **Módulo I – Introdução ao HTML**, desenvolvendo uma página web simples e aplicando corretamente **tags**, **atributos** e **elementos**.
 
-Um título principal utilizando uma tag de cabeçalho.
+---
 
-Pelo menos dois parágrafos de texto.
+## 📚 Material de Apoio
+Consulte o material do **Módulo I de Desenvolvimento de Sistemas Web: CSS e HTML**, com foco especial na seção sobre *Tags, atributos e elementos*.
 
-Uma lista ordenada ou não ordenada.
+---
 
-Um link para outro site.
+## 📝 Orientações e Requisitos
+Crie uma página HTML simples sobre um tema de sua escolha. O documento deve conter, no mínimo:
 
-Uma imagem.
+- [ ] **Estrutura básica** de um documento HTML (`<!DOCTYPE html>`, `<html>`, `<head>`, `<title>` e `<body>`).
+- [ ] **Título da aba** do navegador (`<title>`).
+- [ ] **Título principal** na página utilizando uma tag de cabeçalho (`<h1>`).
+- [ ] **Pelo menos dois parágrafos** de texto (`<p>`).
+- [ ] **Uma lista** ordenada (`<ol>`) ou não ordenada (`<ul>`).
+- [ ] **Um link** externo para outro site (`<a>`).
+- [ ] **Uma imagem** (`<img>`).
+- [ ] **Uso correto de atributos** nas tags (como `href`, `src` e `alt`).
 
-Utilização de atributos nas tags, como href, src e alt.
+### 💡 Sugestões de Temas
+Você pode desenvolver a página sobre um **hobby, profissão, cidade, filme, esporte, tecnologia, música** ou qualquer outro assunto do seu interesse.
 
-Uma estrutura básica de documento HTML, incluindo html, head, title e body.
+---
 
-Exemplo de tema
-Você pode criar uma página sobre um hobby, profissão, cidade, filme, esporte, tecnologia, música ou qualquer outro assunto de seu interesse.
+## 📂 Estrutura de Entrega
+Salve o arquivo `.html` dentro de uma pasta específica dentro do diretório `projetos-web` do seu repositório no GitHub, seguindo a estrutura abaixo:
 
-Entrega
-Envie o arquivo .html criado na atividade na pasta projetos-web
-
-Dentro de projetos-web, crie uma pasta específica para esta prática:
-
-A estrutura inicial no Repositório do GitHub deverá ficar assim:
-
+```text
 projetos-web/
 └── primeira-pagina-html5/
-Antes de enviar, abra o arquivo em um navegador e verifique se todos os elementos estão sendo apresentados corretamente.
-
-Desafio extra ⭐
-Para quem quiser praticar um pouco mais, acrescente outros elementos HTML estudados no módulo, como diferentes níveis de títulos, imagens adicionais, links ou outras listas.
-
-Bom trabalho e bons estudos! 💻
-
-Última atualização: quinta-feira, 12 nov. 2026, 09:14
+    └── index.html
